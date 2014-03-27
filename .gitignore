@@ -1,0 +1,9 @@
+<html>
+<script type="text/javascript">
+	//This program uses the users annual income to work out how much they make per week.
+	var income;
+	income=prompt("Please enter your net annual income","1");
+	total = parseFloat(income)/52
+	alert("Your weekly income is $" + total);
+</script>
+</html>
